@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆中心</title>
+</head>
+<body>
+    <h2>欢迎来到登陆中心</h2>
+    <form id="form" method="post" action="/login">
+        用户名：<input id="username" type="text" name="username"><br/>
+        密码：<input id="password" type="password" name="password"><br/>
+        <!--<input type="submit" value="登陆">-->
+        <button id="btn2" type="button" class="btn2"><a href="javascript:submitLogin();" class="a">登 &nbsp; &nbsp;录</a></button>
+    </form>
+
+    <!--底部-->
+    <input type="text" th:value="${ReturnUrl}" id="ReturnUrl" />
+
+</body>
+<script language="JavaScript">
+    function submitLogin() {
+        
+    }
+
+</script>
+</html>

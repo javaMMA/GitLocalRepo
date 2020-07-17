@@ -1,0 +1,20 @@
+#server:
+#  port: 8080
+
+
+person:
+  last-name: xiaoming
+  age: 3
+  happy: false
+  birth: 2020/7/1
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: 旺财
+    age: 3
+
+#可以查看哪些自动配置类生效的
+#debug: true
